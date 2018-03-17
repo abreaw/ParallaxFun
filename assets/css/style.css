@@ -76,3 +76,10 @@ body, html {
 .ptext .border.trans {
     background-color: transparent;
 }
+
+/* allows for mobile devices to not have the fixed effect w/ the images */
+@media(max-width:568px) {
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll;
+    }
+}
